@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="284ace36-624b-4779-80f6-4e68edecd581" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$cadastro.coverage" NAME="cadastro Coverage Results" MODIFIED="1531075025213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinhoCaixa$main.coverage" NAME="main Coverage Results" MODIFIED="1539713346400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$garcon.coverage" NAME="garcon Coverage Results" MODIFIED="1531073932590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$cozinha.coverage" NAME="cozinha Coverage Results" MODIFIED="1531073976598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$caixa.coverage" NAME="caixa Coverage Results" MODIFIED="1532640046590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$caixa__1_.coverage" NAME="caixa (1) Coverage Results" MODIFIED="1530831703238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$suporte.coverage" NAME="suporte Coverage Results" MODIFIED="1531075158983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$main.coverage" NAME="main Coverage Results" MODIFIED="1538290085468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$painelADM.coverage" NAME="painelADM Coverage Results" MODIFIED="1531075763156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$cadastrocliente.coverage" NAME="cadastrocliente Coverage Results" MODIFIED="1531073702502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$cadastrofuncionario.coverage" NAME="cadastrofuncionario Coverage Results" MODIFIED="1531075143088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PontDoEspetinho$s.coverage" NAME="s Coverage Results" MODIFIED="1538045035706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5134633">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="25">
+                  <caret line="31" selection-start-line="31" selection-end-line="32" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#2495#3147#0" />
+                    <element signature="e#3216#11851#0" />
+                    <element signature="e#11926#16006#0" />
+                    <element signature="e#16072#17937#0" />
+                    <element signature="e#18006#18846#0" />
+                    <element signature="e#18918#21945#0" />
+                    <element signature="e#22076#23037#0" />
+                    <element signature="e#23104#27006#0" />
+                    <element signature="e#27143#28068#0" />
+                    <element signature="e#27179#28068#0" />
+                    <element signature="e#28131#32197#0" />
+                    <element signature="e#28161#29338#0" />
+                    <element signature="e#29377#29696#0" />
+                    <element signature="e#29734#30328#0" />
+                    <element signature="e#30361#32197#0" />
+                    <element signature="e#32268#34958#0" />
+                    <element signature="e#32308#33266#0" />
+                    <element signature="e#33311#34958#0" />
+                    <element signature="e#35148#35895#0" />
+                    <element signature="e#35980#38966#0" />
+                    <element signature="e#36012#36665#0" />
+                    <element signature="e#36706#36920#0" />
+                    <element signature="e#36953#38395#0" />
+                    <element signature="e#38436#38966#0" />
+                    <element signature="e#39049#39474#0" />
+                    <marker date="1539552202789" expanded="true" signature="544:571" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.kv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="25">
+                  <caret line="5" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="db://a9fdba91-2a49-4270-a8cc-4012862ee1f6/consoles/PointEspetinho">
+              <provider selected="true" editor-type-id="0.CONSOLE">
+                <state line="75" column="21" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>incompl</find>
+      <find>cardapio</find>
+      <find>CardapioAltDel</find>
+      <find>PedidoAltDel</find>
+      <find>PESQUISAR</find>
+      <find>relatorio</find>
+      <find>Relatorio</find>
+      <find>rela</find>
+      <find>delivery</find>
+      <find>conectBD</find>
+      <find>recebeCellApp</find>
+      <find>Funcionarios</find>
+      <find>teclaEnterFuncao</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/logos/kvvspy2.kv" />
+        <option value="$PROJECT_DIR$/logos/pointdoespetinho.kv" />
+        <option value="$PROJECT_DIR$/pointdoespetinho.kv" />
+        <option value="$PROJECT_DIR$/cadastrofuncionario.kv" />
+        <option value="$PROJECT_DIR$/garcon.kv" />
+        <option value="$PROJECT_DIR$/caixaadm.kv" />
+        <option value="$PROJECT_DIR$/cozinha.kv" />
+        <option value="$PROJECT_DIR$/cadastrofunc.kv" />
+        <option value="$PROJECT_DIR$/garcon.py" />
+        <option value="$PROJECT_DIR$/cozinha.py" />
+        <option value="$PROJECT_DIR$/painelADM.py" />
+        <option value="$PROJECT_DIR$/cadastro.py" />
+        <option value="$PROJECT_DIR$/cadastrofuncionario.py" />
+        <option value="$PROJECT_DIR$/cadastrocliente.py" />
+        <option value="$PROJECT_DIR$/paineladm.kv" />
+        <option value="$PROJECT_DIR$/suporte.py" />
+        <option value="$PROJECT_DIR$/suporte.kv" />
+        <option value="$PROJECT_DIR$/cadastrocli.kv" />
+        <option value="$PROJECT_DIR$/cadastro.kv" />
+        <option value="$PROJECT_DIR$/pointespetinho.kv" />
+        <option value="a21fa0bc-ca33-4ffe-8aed-8cdc84e5089d/consoles/PointEspetinho" />
+        <option value="$PROJECT_DIR$/caixa.py" />
+        <option value="$PROJECT_DIR$/caixa.kv" />
+        <option value="11778c6d-2c4d-40fc-8f04-a0a739b6c032/consoles/ConnSqlite" />
+        <option value="$PROJECT_DIR$/main.spec" />
+        <option value="$USER_HOME$/s.py" />
+        <option value="a9fdba91-2a49-4270-a8cc-4012862ee1f6/consoles/PointEspetinho" />
+        <option value="$PROJECT_DIR$/main.kv" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="187" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PontDoEspetinhoCaixa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PontDoEspetinhoCaixa" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JE SISTEMAS E SEGURANÇA\Projetos\Andamento\Point Espetinho\PontDoEspetinho" />
+      <recent name="D:\JE SISTEMAS E SEGURANÇA\Projetos\Andamento\Point Espetinho\PontDoEspetinho\logos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JE SISTEMAS E SEGURANÇA\Projetos\Andamento\Point Espetinho\PontDoEspetinho" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="cadastrofuncionario" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PontDoEspetinho" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cadastrofuncionario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="caixa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PontDoEspetinho" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caixa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="PontDoEspetinho" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="painelADM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PontDoEspetinho" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/painelADM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PontDoEspetinho" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/s.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="suporte" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PontDoEspetinho" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/suporte.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.caixa" />
+      <item itemvalue="Python.cadastrofuncionario" />
+      <item itemvalue="Python.suporte" />
+      <item itemvalue="Python.painelADM" />
+      <item itemvalue="Python.s" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.s" />
+        <item itemvalue="Python.caixa" />
+        <item itemvalue="Python.painelADM" />
+        <item itemvalue="Python.suporte" />
+        <item itemvalue="Python.cadastrofuncionario" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="284ace36-624b-4779-80f6-4e68edecd581" name="Default" comment="" />
+      <created>1530668795511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530668795511</updated>
+      <workItem from="1543354168874" duration="179000" />
+      <workItem from="1550720494586" duration="919000" />
+      <workItem from="1550761726956" duration="1650000" />
+      <workItem from="1558565898542" duration="168000" />
+      <workItem from="1562229472222" duration="1867000" />
+      <workItem from="1563765622142" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4853000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.0858209" />
+      <window_info id="Structure" order="1" sideWeight="0.5030769" side_tool="true" weight="0.12100213" />
+      <window_info id="DB Browser" order="2" sideWeight="0.4969231" weight="0.14158577" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32756633" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" sideWeight="0.49840087" weight="0.29501083" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Regex Tester" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.35063437" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50159913" side_tool="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" weight="0.09381663" />
+      <window_info id="Structure" order="1" sideWeight="0.5030769" side_tool="true" weight="0.12100213" />
+      <window_info id="DB Browser" order="2" sideWeight="0.4969231" visible="true" weight="0.08208955" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" sideWeight="0.49840087" weight="0.29501083" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Regex Tester" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50159913" side_tool="true" weight="0.29501083" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PontDoEspetinhoCaixa$main.coverage" NAME="main Coverage Results" MODIFIED="1562232087459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Programas/Anaconda3/envs/k36/Lib/site-packages/kivy/lang/parser.py" />
+    <entry file="file://D:/Programas/Anaconda3/envs/k36/Lib/site-packages/kivy/app.py" />
+    <entry file="file://$PROJECT_DIR$/cadastrocliente.kv" />
+    <entry file="file://$PROJECT_DIR$/cadastrocliente.py" />
+    <entry file="db://11778c6d-2c4d-40fc-8f04-a0a739b6c032/objects/schemas/main/tables/agenda" />
+    <entry file="file://$PROJECT_DIR$/suporte.py" />
+    <entry file="file://$PROJECT_DIR$/caixaadm.kv" />
+    <entry file="file://$PROJECT_DIR$/garcon.kv" />
+    <entry file="file://$PROJECT_DIR$/cozinha.kv" />
+    <entry file="file://$PROJECT_DIR$/paineladm.kv" />
+    <entry file="file://$PROJECT_DIR$/cadastro.kv" />
+    <entry file="file://$PROJECT_DIR$/suporte.kv" />
+    <entry file="file://$PROJECT_DIR$/garcon.py" />
+    <entry file="db://a21fa0bc-ca33-4ffe-8aed-8cdc84e5089d/consoles/PointEspetinho" />
+    <entry file="file://$PROJECT_DIR$/cozinha.py" />
+    <entry file="file://$PROJECT_DIR$/painelADM.py" />
+    <entry file="file://$PROJECT_DIR$/cadastro.py" />
+    <entry file="file://$PROJECT_DIR$/cadastrofuncionario.py" />
+    <entry file="file://$PROJECT_DIR$/cadastrocli.kv" />
+    <entry file="file://$PROJECT_DIR$/cadastrofunc.kv" />
+    <entry file="file://$PROJECT_DIR$/caixa.py" />
+    <entry file="file://$PROJECT_DIR$/caixa.kv" />
+    <entry file="file://D:/FACULDADE/Primeiro Periodo/ALP/Lista de exercicio/q1-q41/Outra lista q1-q9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1443" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/teste.py" />
+    <entry file="file://$PROJECT_DIR$/main.spec" />
+    <entry file="file://$USER_HOME$/s.py" />
+    <entry file="file://$PROJECT_DIR$/Projeto/PointDoEspetinho.spec" />
+    <entry file="db://11778c6d-2c4d-40fc-8f04-a0a739b6c032/consoles/ConnSqlite" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="31" selection-start-line="31" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="e#2495#3147#0" />
+            <element signature="e#3216#11851#0" />
+            <element signature="e#11926#16006#0" />
+            <element signature="e#16072#17937#0" />
+            <element signature="e#18006#18846#0" />
+            <element signature="e#18918#21945#0" />
+            <element signature="e#22076#23037#0" />
+            <element signature="e#23104#27006#0" />
+            <element signature="e#27143#28068#0" />
+            <element signature="e#27179#28068#0" />
+            <element signature="e#28131#32197#0" />
+            <element signature="e#28161#29338#0" />
+            <element signature="e#29377#29696#0" />
+            <element signature="e#29734#30328#0" />
+            <element signature="e#30361#32197#0" />
+            <element signature="e#32268#34958#0" />
+            <element signature="e#32308#33266#0" />
+            <element signature="e#33311#34958#0" />
+            <element signature="e#35148#35895#0" />
+            <element signature="e#35980#38966#0" />
+            <element signature="e#36012#36665#0" />
+            <element signature="e#36706#36920#0" />
+            <element signature="e#36953#38395#0" />
+            <element signature="e#38436#38966#0" />
+            <element signature="e#39049#39474#0" />
+            <marker date="1539552202789" expanded="true" signature="544:571" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://a9fdba91-2a49-4270-a8cc-4012862ee1f6/consoles/PointEspetinho">
+      <provider selected="true" editor-type-id="0.CONSOLE">
+        <state line="75" column="21" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="(19||20)\d\d([- /.])(0[1-9]||1[012])\2(0[1-9]||[12][0-9]||3[01])" />
+        <entry key="text" value="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+
+INSTALAÇÃO DO SISTEMA
+
+1) Instalar os softwares da pasta "Softwares Necessarios"
+
+2) Abri CMD como Administrador e colocar os comandos a baixo:
+
+	1) python -m pip install --upgrade pip wheel setuptools
+
+	2a) pip install Kivy-1.10.1-cp35-cp35m-win32.whl
+	
+	2b) python -m pip install kivy
+
+	2b) python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+
+	2b) python -m pip install kivy.deps.angle
+
+3) Copiar Atalho "Point do Espetinho.bat" para Área de Trabalho
+
+4) Mudar icone do atalho, o icone esta na pasta do programa com o nome de "icone.ico"
+
+5) Mover a pasta "sqlite" para dentro do Diretorio C (deixar na raiz da pasta)
+
+6) Iniciar pelo atalho na Área de Trabalho

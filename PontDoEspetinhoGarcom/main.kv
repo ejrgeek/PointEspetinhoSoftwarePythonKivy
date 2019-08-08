@@ -1,0 +1,781 @@
+#####     TELA PRINCIPAL    #####
+<Principal>:
+    Screen:
+        #: import hex kivy.utils.get_color_from_hex
+        name: "Entrada"
+        orientation: "vertical"
+        FloatLayout:
+            Image: #Fundo legal
+                source: "img/fundo.jpg"
+                opacity: .5
+
+            Label:
+                text: "ENTRADA"
+                font_size: 30
+                size_hint: 0, .2
+                pos_hint: {"center_x":.5, "center_y":.9}
+                color: hex("#4c2406")
+                bold: True
+
+            TextInput:
+                font_size: 25
+                size_hint: .8, .1
+                pos_hint: {"center_x": .5, "center_y": .65}
+                multiline: False
+                hint_text: "Usuario"
+                padding_y: 15
+                padding_x: 10
+                write_tab: False
+                multiline: False
+                input_filter: None
+                id: user
+
+            TextInput:
+                font_size: 25
+                size_hint: .8, .1
+                pos_hint: {"center_x": .5, "center_y": .54}
+                hint_text: "Senha"
+                padding_y: 15
+                padding_x: 10
+                write_tab: False
+                multiline: False
+                password: True
+                input_filter: None
+                id: senha
+
+            Button:
+                text: "LOGIN"
+                color: hex("#e9e9bb")
+                bold: True
+                font_size: 25
+                size_hint: .8, .1
+                pos_hint: {"center_x": .5, "center_y": .43}
+                background_color: hex("#4c2406")
+                background_normal: ""
+                id: botaoLogin
+                on_press: root.click_login()
+
+            ActionBar:
+                ActionView:
+                    ActionPrevious:
+                        on_press: app.stop()
+                        title: "Sair"
+                        background_color: hex("#4c2406")
+
+                    ActionButton:
+                        icon: "img/suporte.png"
+                        title: "Suporte"
+                        on_press: app.root.current = "suporte"
+                    ActionSeparator:
+                    ActionButton:
+                        icon: "img/info.png"
+                        title: "Sobre"
+                        on_press: app.root.current = "info"
+
+
+    AdmApp:
+        name: 'Adm'
+    ###############
+    PedidoGerenciadorApp:
+        name: 'PedidoGerenciador'
+    ###############
+    FazerPedidoApp:
+        name: 'Fazer_Pedido'
+    PedidoAltDelApp:
+        name: "PedidoAltDel"
+    #################
+    Suporte:
+        name: 'suporte'
+    Info:
+        name: 'info'
+
+#####     PAINEL ADM     #####
+<AdmApp>:
+    name: "Adm"
+    #: import hex kivy.utils.get_color_from_hex
+    orientation: "vertical"
+    FloatLayout:
+
+        Image: #Fundo
+            source: "img/fundoAdm.jpg"
+            opacity: .5
+
+        Label:
+            text: "PAINEL DO GARCON"
+            font_size: 30
+            size_hint: 0, .2
+            pos_hint: {"center_x":.5, "center_y":.85}
+            color: hex("#4c2406")
+            bold: True
+
+        Button:
+            text: "PEDIDOS"
+            on_press: app.root.current = "PedidoGerenciador"
+            bold: True
+            color: hex("#e9e9bb")
+            font_size: 30
+            size_hint: .8, .1
+            pos_hint: {"center_x": .5, "center_y": .65}
+            background_color: hex("#4c2406")
+            background_normal: ""
+
+        ActionBar:
+            ActionView:
+                ActionPrevious:
+                    on_press:
+                        app.root.current = "Entrada"
+                    title: "Voltar"
+
+                    ActionButton:
+                        icon: "img/suporte.png"
+                        title: "Suporte"
+                        on_press: app.root.current = "suporte"
+                    ActionSeparator:
+                    ActionButton:
+                        icon: "img/info.png"
+                        title: "Sobre"
+                        on_press: app.root.current = "info"
+
+#####     CAIXA     #####
+<PedidoGerenciadorApp>:
+    name: "PedidoGerenciador"
+    #: import hex kivy.utils.get_color_from_hex
+    orientation: "vertical"
+    FloatLayout:
+
+        Image: #Fundo
+            source: "img/fundoCaixa.jpg"
+            opacity: .5
+
+        Label:
+            text: "PEDIDOS"
+            font_size: 30
+            size_hint: 0, .2
+            pos_hint: {"center_x":.5, "center_y":.85}
+            color: hex("#4c2406")
+            bold: True
+
+        Button:
+            text: "FAZER PEDIDOS"
+            on_press: app.root.current = "Fazer_Pedido"
+            color: hex("#e9e9bb")
+            bold: True
+            font_size: 20
+            size_hint: .8, .1
+            pos_hint: {"center_x": .5, "center_y": .59}
+            background_color: hex("#4c2406")
+            background_normal: ""
+
+        Button:
+            text: "BUSCAR PEDIDO"
+            on_press: app.root.current = "PedidoAltDel"
+            color: hex("#e9e9bb")
+            bold: True
+            font_size: 20
+            size_hint: .8, .1
+            pos_hint: {"center_x": .5, "center_y": .48}
+            background_color: hex("#4c2406")
+            background_normal: ""
+
+
+        ActionBar:
+
+            ActionView:
+                ActionPrevious:
+                    on_press: app.root.current = "Adm"
+                    title: "Voltar"
+
+                    ActionButton:
+                        icon: "img/suporte.png"
+                        title: "Suporte"
+                        on_press: app.root.current = "suporte"
+                    ActionSeparator:
+                    ActionButton:
+                        icon: "img/info.png"
+                        title: "Sobre"
+                        on_press: app.root.current = "info"
+
+#####     FAZER PEDIDOS     #####
+<FazerPedidoApp>:
+    name: "Fazer_Pedido"
+    #: import hex kivy.utils.get_color_from_hex
+    orientation: "vertical"
+    FloatLayout:
+
+        Image: #Fundo
+            source: "img/FundoCardapio.jpg"
+            opacity: .5
+
+        Label:
+            text: "REALIZAR PEDIDO"
+            font_size: 30
+            size_hint: 0, .2
+            pos_hint: {"center_x":.5, "center_y":.9}
+            color: hex("#4c2406")
+            bold: True
+
+        Label:
+            text: "Mesa"
+            pos_hint: {"center_x": .1, "center_y": .82}
+            font_size: 20
+            color: hex("#4c2406")
+            bold: True
+
+        TextInput:
+            font_size: 20
+            size_hint: .1, .08
+            pos_hint: {"center_x": .08, "center_y": .76}
+            multiline: False
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "int"
+            id: mesa
+
+        Label:
+            text: "Pedido"
+            pos_hint: {"center_x": .3, "center_y": .82}
+            font_size: 20
+            color: hex("#4c2406")
+            bold: True
+
+        TextInput:
+            font_size: 20
+            size_hint: .4, .08
+            pos_hint: {"center_x": .35, "center_y": .76}
+            multiline: False
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            id: pedido1
+
+        Label:
+            text: "Quant."
+            pos_hint: {"center_x": .65, "center_y": .82}
+            font_size: 20
+            color: hex("#4c2406")
+            bold: True
+
+        TextInput:
+            font_size: 20
+            size_hint: .1, .08
+            pos_hint: {"center_x": .62, "center_y": .76}
+            multiline: False
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "int"
+            id: quant1
+
+        Label:
+            text: "Valor"
+            pos_hint: {"center_x": .82, "center_y": .82}
+            font_size: 20
+            color: hex("#4c2406")
+            bold: True
+
+        TextInput:
+            font_size: 20
+            size_hint: .2, .08
+            pos_hint: {"center_x": .82, "center_y": .76}
+            multiline: False
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "float"
+            id: valor1
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .4, .08
+            pos_hint: {"center_x": .35, "center_y": .66}
+            multiline: False
+            hint_text: "Pedido"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            id: pedido2
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .1, .08
+            pos_hint: {"center_x": .62, "center_y": .66}
+            multiline: False
+            hint_text: "Quant"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "int"
+            id: quant2
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .2, .08
+            pos_hint: {"center_x": .82, "center_y": .66}
+            multiline: False
+            hint_text: "Valor"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "float"
+            id: valor2
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .4, .08
+            pos_hint: {"center_x": .35, "center_y": .56}
+            multiline: False
+            hint_text: "Pedido"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            id: pedido3
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .1, .08
+            pos_hint: {"center_x": .62, "center_y": .56}
+            multiline: False
+            hint_text: "Quant"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "int"
+            id: quant3
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .2, .08
+            pos_hint: {"center_x": .82, "center_y": .56}
+            multiline: False
+            hint_text: "Valor"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "float"
+            id: valor3
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .4, .08
+            pos_hint: {"center_x": .35, "center_y": .46}
+            multiline: False
+            hint_text: "Pedido"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            id: pedido4
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .1, .08
+            pos_hint: {"center_x": .62, "center_y": .46}
+            multiline: False
+            hint_text: "Quant"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "int"
+            id: quant4
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .2, .08
+            pos_hint: {"center_x": .82, "center_y": .46}
+            multiline: False
+            hint_text: "Valor"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "float"
+            id: valor4
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .4, .08
+            pos_hint: {"center_x": .35, "center_y": .36}
+            multiline: False
+            hint_text: "Pedido"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            id: pedido5
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .1, .08
+            pos_hint: {"center_x": .62, "center_y": .36}
+            multiline: False
+            hint_text: "Quant"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "int"
+            id: quant5
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .2, .08
+            pos_hint: {"center_x": .82, "center_y": .36}
+            multiline: False
+            hint_text: "Valor"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "float"
+            id: valor5
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .4, .08
+            pos_hint: {"center_x": .35, "center_y": .26}
+            multiline: False
+            hint_text: "Pedido"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            id: pedido6
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .1, .08
+            pos_hint: {"center_x": .62, "center_y": .26}
+            multiline: False
+            hint_text: "Quant"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "int"
+            id: quant6
+
+        TextInput:
+            text: " "
+            font_size: 20
+            size_hint: .2, .08
+            pos_hint: {"center_x": .82, "center_y": .26}
+            multiline: False
+            hint_text: "Valor"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: "float"
+            id: valor6
+
+        Button:
+            text: "PEDIR"
+            on_press: root.realizar_pedido()
+            color: hex("#e9e9bb")
+            bold: True
+            font_size: 20
+            size_hint: .35, .1
+            pos_hint: {"center_x": .3, "center_y": .15}
+            background_color: hex("#4c2406")
+            background_normal: ""
+
+        Button:
+            text: "ATUALIZAR"
+            on_press: root.atualizar_pedido()
+            color: hex("#e9e9bb")
+            bold: True
+            font_size: 20
+            size_hint: .35, .1
+            pos_hint: {"center_x": .7, "center_y": .15}
+            background_color: hex("#4c2406")
+            background_normal: ""
+
+        ActionBar:
+
+            ActionView:
+                ActionPrevious:
+                    on_press: app.root.current = "PedidoGerenciador"
+                    title: "Voltar"
+
+                    ActionButton:
+                        icon: "img/suporte.png"
+                        title: "Suporte"
+                        on_press: app.root.current = "suporte"
+                    ActionSeparator:
+                    ActionButton:
+                        icon: "img/info.png"
+                        title: "Sobre"
+                        on_press: app.root.current = "info"
+
+<PedidoAltDelApp>:
+    name: "PedidoAltDel"
+    #: import hex kivy.utils.get_color_from_hex
+    orientation: "vertical"
+    FloatLayout:
+
+        Image: #Fundo
+            source: "img/FundoCardapio.jpg"
+            opacity: .5
+
+        Label:
+            text: "REMOVER PEDIDO"
+            font_size: 30
+            size_hint: 0, .2
+            pos_hint: {"center_x":.5, "center_y":.95}
+            color: hex("#4c2406")
+            bold: True
+
+        TextInput:
+            font_size: 20
+            size_hint: .7, .09
+            pos_hint: {"center_x": .45, "center_y": .85}
+            multiline: False
+            hint_text: "Numero da Mesa"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: None
+            id: pesqMesa
+
+        Button:
+            text: "B"
+            on_press: root.pesq_produto()
+            color: hex("#e9e9bb")
+            bold: True
+            font_size: 30
+            size_hint: .09, .09
+            pos_hint: {"center_x": .85, "center_y": .85}
+            background_color: hex("#4c2406")
+            background_normal: ""
+
+        TextInput:
+            font_size: 20
+            size_hint: .3, .08
+            pos_hint: {"center_x": .25, "center_y": .75}
+            multiline: False
+            hint_text: "Data"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: None
+            disabled: True
+            id: dataPedido
+
+        TextInput:
+            font_size: 20
+            size_hint: .2, .08
+            pos_hint: {"center_x": .55, "center_y": .75}
+            multiline: False
+            hint_text: "Mesa"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: None
+            disabled: True
+            id: mesaPedido
+
+        TextInput:
+            font_size: 20
+            size_hint: .3, .09
+            pos_hint: {"center_x": .25, "center_y": .65}
+            multiline: False
+            hint_text: "Numero"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: None
+            disabled: True
+            id: numPedido
+
+        TextInput:
+            font_size: 20
+            size_hint: .3, .09
+            pos_hint: {"center_x": .6, "center_y": .65}
+            multiline: False
+            hint_text: "Valor"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            multiline: False
+            input_filter: None
+            disabled: True
+            id: valorPedido
+
+
+        TextInput:
+            font_size: 20
+            size_hint: .8, .4
+            pos_hint: {"center_x": .493, "center_y": .4}
+            multiline: True
+            hint_text: "Pedidos"
+            padding_y: 10
+            padding_x: 10
+            write_tab: False
+            input_filter: None
+            readonly: True
+            id: pedidos
+
+        Button:
+            text: "Remover"
+            on_press: root.remover_produto()
+            color: hex("#e9e9bb")
+            bold: True
+            font_size: 20
+            size_hint: .8, .08
+            pos_hint: {"center_x": .492, "center_y": .135}
+            background_color: hex("#4c2406")
+            background_normal: ""
+            disabled: True
+            id: remover
+
+        ActionBar:
+
+            ActionView:
+                ActionPrevious:
+                    on_press:
+                        app.root.current = "PedidoGerenciador"
+                    title: "Voltar"
+
+                    ActionButton:
+                        icon: "img/suporte.png"
+                        title: "Suporte"
+                        on_press: app.root.current = "suporte"
+                    ActionSeparator:
+                    ActionButton:
+                        icon: "img/info.png"
+                        title: "Sobre"
+                        on_press: app.root.current = "info"
+
+#####     SUPORTE    #####
+<Suporte>:
+    name: "suporte"
+    #: import hex kivy.utils.get_color_from_hex
+    orientation: "vertical"
+    FloatLayout:
+
+        Image: #Fundo
+            source: "img/fundoSuporte.jpg"
+            opacity: .5
+
+        Label:
+            text: "SUPORTE TECNICO"
+            font_size: 20
+            size_hint: 0, .2
+            pos_hint: {"x":.5, "top":1}
+            color: hex("#4c2406")
+            bold: True
+
+        TextInput:
+            font_size: 20
+            size_hint: .8, .5
+            pos_hint: {"center_x": .5, "center_y": .55}
+            hint_text: "Mensagem"
+            padding_y: 15
+            padding_x: 10
+            write_tab: False
+            input_filter: None
+            id: mensagem
+
+        Button:
+            text: "ENVIAR"
+            on_press: root.enviar_mensagem()
+            color: hex("#e9e9bb")
+            bold: True
+            font_size: 20
+            size_hint: .8, .1
+            pos_hint: {"center_x": .5, "center_y": .2}
+            background_color: hex("#4c2406")
+            background_normal: ""
+
+        ActionBar:
+
+            ActionView:
+                ActionPrevious:
+                    on_press: app.root.current = "Entrada"
+                    title: "Voltar"
+
+                    ActionButton:
+                        icon: "img/suporte.png"
+                        title: "Suporte"
+                        on_press: app.root.current = "suporte"
+                    ActionSeparator:
+                    ActionButton:
+                        icon: "img/info.png"
+                        title: "Sobre"
+                        on_press: app.root.current = "info"
+
+#####     INFORMACOES    #####
+<Info>:
+    name: "info"
+    #: import hex kivy.utils.get_color_from_hex
+    orientation: "vertical"
+    FloatLayout:
+
+        Image: #Fundo
+            source: "img/FundoInfo.jpg"
+            opacity: .8
+
+        Label:
+            text: "INFORMACOES DO SOFTWARE"
+            font_size: 20
+            size_hint: 0, .2
+            pos_hint: {"x":.5, "top":1}
+            color: hex("#ffffff")
+            bold: True
+
+        TextInput:
+            font_size: 15
+            size_hint: .8, .7
+            pos_hint: {"center_x": .5, "center_y": .47}
+            text: "Informacoes do software:\n\tDesenvolvedor:\n\t\tErlon Dantas da Nobrega Junior\n\tTelefone:\n\t\t(83) 9 9990-9409\n\tE-mail:\n\t\terlonjunior92@gmail.com\n\t\tejrgeek@gmail.com\n\t\tejrflaut@hotmail.com\n\t\tjunior.erlon@academico.ifpb.edu.br\n\tTecnologias usadas:\n\t\tPython 3.6 (Linguagem de Programacao)\n\t\tKivy 1.10.0 (Linguagem de marcacoa - Construcao de telas)\n\t\tSQLite3 (Banco de Dados)\n"
+            bold: True
+            readonly: True
+            id: informacoes
+
+
+        ActionBar:
+
+            ActionView:
+                ActionPrevious:
+                    on_press: app.root.current = "Entrada"
+                    title: "Voltar"
+
+                    ActionButton:
+                        icon: "img/suporte.png"
+                        title: "Suporte"
+                        on_press: app.root.current = "suporte"
+                    ActionSeparator:
+                    ActionButton:
+                        icon: "img/info.png"
+                        title: "Sobre"
+                        on_press: app.root.current = "info"
