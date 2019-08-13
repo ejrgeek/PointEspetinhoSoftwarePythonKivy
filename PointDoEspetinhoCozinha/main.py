@@ -24,10 +24,10 @@ Config.write()
 
 def msg_suporte(mensagem):
     mensagem += "\t"
-    client = nexmo.Client(key="d22e80ad", secret="gkP38HU7m6KrK7wq")
+    client = nexmo.Client(key="key", secret="keySecrete")
     client.send_message({
-        'from': 'Point do Espetingo',
-        'to': '+5583999909409',
+        'from': 'Destinatario',
+        'to': 'number',
         'text': mensagem,
     })
 
