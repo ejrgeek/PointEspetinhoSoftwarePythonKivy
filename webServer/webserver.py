@@ -1,6 +1,6 @@
 # /bin/python3
 # Coding: -*- UTF-8 -*-
-# Coded By Vitor Fernandes (Rapt00r)
+# Coded By Vitor Fernandes (Rapt00r) and Erlon Jr. (ejrgeek)
 
 import socket
 import sqlite3
